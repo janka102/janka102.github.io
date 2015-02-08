@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/janka102
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://smick.me
+  * I am janka102 (https://keybase.io/janka102) on keybase.
+  * I have a public key with fingerprint 31D5 A40B 7AC7 7D50 1088  57FB 6722 3442 89B3 79DE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.4"
+        },
+        "key": {
+            "fingerprint": "31d5a40b7ac77d50108857fb6722344289b379de",
+            "host": "keybase.io",
+            "key_id": "6722344289B379DE",
+            "uid": "85651c9c4f4125f6f7862aeb7e9c5100",
+            "username": "janka102"
+        },
+        "merkle_root": {
+            "ctime": 1423392486,
+            "hash": "242e1886cdd26f17c6ce49d288400ab0a895c2c1b46bbc6c8ede94704e16198f902b321d01dedc5f6ee7a4e19a68fdd42d1b1f44a5b31c5f948ad78a19aaa5ed",
+            "seqno": 150815
+        },
+        "service": {
+            "hostname": "smick.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423392506,
+    "expire_in": 157680000,
+    "prev": "7c9d6032be978d3b70a849f87f493c9be8f9528fb0857b65a9d4bb68e9d00deb",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFVkn1MVWUcxy+ICZjysiQCJnSkKUFwzrnnFSG0gZEb2gShqHF5nvM8Bw5w77n3
+3At4YSjkGCkNwYqZmRbmUISW0Wp0EeNls4iKpcJotmrpBAKsae9Oeg6jmeev5zy/
+z/N7vt/v72lds8IS7JcZ0fFcfuYs9PtiBlryJjNW1lJQR14qtZZSKjTs8JgrB7Bj
+KpUqx14I3DhZ0+McOsLJZe64ZSaJqsKGW9MdhKKTxWSOqksycfOwqjlKsOE0NLMX
+ZWUQDzgaikARRcTTDC1JvKhCQWRZK8exkgytoowwaVmquz333Uot9bRpiOze458i
+fGYWqVUuFSRe4BlFVjiVY1heFVRREliAoYhlhWdo2gTd2Fi2VAYc5YChWVOvHRvl
+Fdhm6PqSacWjmQjDsVarzHKSQBQBdyk5xHIsZiRJUBBiBZURFUHBnIxYSeJoGkAa
+SDKvsAoDOQFCUpQwwjIn0hxmBEaWVJlmoZVlEM0gjBSiEWMRkKIMBElFiGMRAxmV
+4wAPrQypy5wEkCgBAgDAY0QsuLHLoRNxPC0xfJ35b1RpCjZ1m7Etu3PbNaU82W6G
+6TR0j67oFWS31ONxppqGPV6nSVVjaDPPnyENbFBzIDKw/0+UIej9YfA0CQPvcWoG
+tmkmwYuCRJPPvAdXkZ6iIiOBtrIQy6KErFAkoXCyKokqJ1sVGWKSAs9KKqTJ9KHA
+AxlxEAoSlhFNIwzvWeSITlBimtFKHMBTaWCq7oB/TIDFL9jywEp/88lagoNC/3vH
+4ftCFp1Rt9NPHikcaR3Pf8V5pf/L3LU3q0cu53zYebp0zEVP2A++kTi1t2f0r66k
+z/caZ8b6vpFt4eGuMt8Anojs/P3FIm9pwXGp+FKcXLM/O2Zhy7ev9b7zXkIKF3sr
+cy5wZnx8lI1uOde98Yc/KpqavUFTmwqPBJ3IezbWL7vhbp8l+nhJkitww+lwIyHP
+O7dLOhU2OByPDscH3Igb6J6nXs/d0hW2/uvt5VtXFcDoa8VvVc9Qrelqh/95uS11
+btpRMDv1W2GReCcxqaElwv335h2u4vT90b8+NvQx0xh4Iy3vk8bYDNBg+Dp3obcn
+9/x0rPdH/0MhOS9kDQ6c6O8LOPDZtvb60BrXqcG1dbxx+1i9EaIO37pYO9KxqeXB
+8VXjbf1nxy63/9Llq2l55oPqUP+xQ9Fnbcz1zXMTCZdebS7seFcPjJwGfPy5fYft
+s+ssHYu5b/6ZFpDQc6G+KKpxdUvmV0L99Zyi6bbInUNXj8bPjabcyWvGL2+sbS/f
+2tPrK1sTvX3mycefADsf9vNtSWwPoypW/OyO+MhoDeq2xYOQod2VKYW97PmH5iOa
+rFZf9roLabmpWddqKp93DdvDd6yPOnj0aW6sfcz2yHfOuVlm29XxjJt1TRcXYnLV
+1QuuTzdMePXOooX5u/61j34/XBa0mNWTD0LydnvbT740GXFlFAW+3+L8pyoxquhf
+=gC/w
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/janka102
+
+==================================================================
