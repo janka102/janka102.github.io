@@ -1,0 +1,9 @@
+# Site settings
+title: Jesse Smick
+email: jesse@smick.me
+avatar: https://secure.gravatar.com/avatar/c1530be3f223368ac7d3086d2ce94084
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jesse.smick.me" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
