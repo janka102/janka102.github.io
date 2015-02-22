@@ -11,6 +11,17 @@
         background-position: 0 0;
     }
 }
+@keyframes move-bg {
+    0% {
+        background-position: 0 0;
+    }
+    50% { 
+        background-position: 100% 100%;
+    }
+    100% { 
+        background-position: 0 0;
+    }
+}
 
 .header-panel {
     position: fixed;
@@ -33,6 +44,10 @@
         -webkit-animation-duration: 120s;
         -webkit-animation-timing-function: ease;
         -webkit-animation-iteration-count: infinite;
+        animation-name: move-bg;
+        animation-duration: 120s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
 
         &::after {
             content: 'Photo by ' attr(data-author);
