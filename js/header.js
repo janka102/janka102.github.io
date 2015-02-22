@@ -4,13 +4,13 @@ window.addEventListener('DOMContentLoaded', function() {
             rand = prng(Math.floor(new Date() / (5 * 60 * 1000))), // change picture every 5 minutes
             background = backgrounds[rand * backgrounds.length | 0];
 
-        img.css('background-image', 'url(' + background.url + ')');
-        img.attr('data-author', background.author || 'Unknown');
+        img.attr('src', background.url);
+
+        img.parent().attr('data-author', background.author || 'Unknown');
     });
 });
 
-
 function prng(seed) {
-  var x = Math.sin(seed) * 1e6;
-  return x - Math.floor(x);
+    var x = Math.sin(seed) * 1e6;
+    return x - Math.floor(x);
 }
