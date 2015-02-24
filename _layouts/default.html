@@ -10,7 +10,11 @@
   </div>
 
   <div class="container main">
-    <div class="col-xs-12 well">
+    <div class="col-xs-12">
+      {% unless page.excludeHeader %}
+        {% include header.html %}
+      {% endunless %}
+
       {{ content }}
     </div>
   </div>
