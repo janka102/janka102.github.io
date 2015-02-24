@@ -1,3 +1,5 @@
+// jsx --harmony --strip-types -x jsx --watch js/ js/
+
 var Router = ReactRouter;
 
 var DefaultRoute = Router.DefaultRoute;
@@ -107,7 +109,7 @@ var Contact = React.createClass({
         }
 
         return (
-                <div className="row body grid">{contactTiles}</div>
+            <div className="row body grid">{contactTiles}</div>
         );
     }
 });
