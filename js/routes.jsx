@@ -109,14 +109,14 @@ var Contact = React.createClass({
         }
 
         return (
-            <div className="row body grid">{contactTiles}</div>
+            <div className="col-xs-12 body grid">{contactTiles}</div>
         );
     }
 });
 
 var routes = (
     <Route name='app' path='/' handler={App}>
-        <Route name='contact'handler={Contact}/>
+        <Route name='contact' handler={Contact}/>
         <DefaultRoute handler={About}/>
     </Route>
 );

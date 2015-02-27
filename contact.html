@@ -45,7 +45,7 @@ contactMethods:
     color: blue darken-4
 ---
 
-<div class="row body grid">
+<div class="col-xs-12 body grid">
   {% for contactMethod in page.contactMethods %}
     <div class="col-xs-6 col-sm-4 col-md-3 tile">
       <a href="{{ contactMethod.href }}" title="{{ contactMethod.title }}" class="tile-content {{ contactMethod.color }}"{% if contactMethod.title == 'Email' %} target="_blank"{% endif %}>

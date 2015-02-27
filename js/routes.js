@@ -109,7 +109,7 @@ var Contact = React.createClass({displayName: "Contact",
         }
 
         return (
-            React.createElement("div", {className: "row body grid"}, contactTiles)
+            React.createElement("div", {className: "col-xs-12 body grid"}, contactTiles)
         );
     }
 });
