@@ -95,7 +95,7 @@ var Contact = React.createClass({
         for (var i = 0, contactMethod; i < contactMethods.length; i++) {
             contactMethod = contactMethods[i];
             contactTiles.push(
-                <div className='col-xs-6 col-sm-4 col-md-3 tile' key={contactMethod.title}>
+                <div className='col-xs-6 col-sm-4 col-md-3 col-lg-2 tile' key={contactMethod.title}>
                   <a href={contactMethod.href} title={contactMethod.title} className={'tile-content ' + contactMethod.color}>
                     <div className='valign-wrapper tile-icon'>
                       <i className={'fa fa-' + contactMethod.icon + ' valign'}></i>
@@ -109,15 +109,15 @@ var Contact = React.createClass({
         }
 
         return (
-            <div className="col-xs-12 body grid">{contactTiles}</div>
+          <div className="col-xs-12 body grid">{contactTiles}</div>
         );
     }
 });
 
 var routes = (
     <Route name='app' path='/' handler={App}>
-        <Route name='contact' handler={Contact}/>
-        <DefaultRoute handler={About}/>
+      <Route name='contact' handler={Contact}/>
+      <DefaultRoute handler={About}/>
     </Route>
 );
 

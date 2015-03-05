@@ -95,7 +95,7 @@ var Contact = React.createClass({displayName: "Contact",
         for (var i = 0, contactMethod; i < contactMethods.length; i++) {
             contactMethod = contactMethods[i];
             contactTiles.push(
-                React.createElement("div", {className: "col-xs-6 col-sm-4 col-md-3 tile", key: contactMethod.title}, 
+                React.createElement("div", {className: "col-xs-6 col-sm-4 col-md-3 col-lg-2 tile", key: contactMethod.title}, 
                   React.createElement("a", {href: contactMethod.href, title: contactMethod.title, className: 'tile-content ' + contactMethod.color}, 
                     React.createElement("div", {className: "valign-wrapper tile-icon"}, 
                       React.createElement("i", {className: 'fa fa-' + contactMethod.icon + ' valign'})
@@ -109,15 +109,15 @@ var Contact = React.createClass({displayName: "Contact",
         }
 
         return (
-            React.createElement("div", {className: "col-xs-12 body grid"}, contactTiles)
+          React.createElement("div", {className: "col-xs-12 body grid"}, contactTiles)
         );
     }
 });
 
 var routes = (
     React.createElement(Route, {name: "app", path: "/", handler: App}, 
-        React.createElement(Route, {name: "contact", handler: Contact}), 
-        React.createElement(DefaultRoute, {handler: About})
+      React.createElement(Route, {name: "contact", handler: Contact}), 
+      React.createElement(DefaultRoute, {handler: About})
     )
 );
 

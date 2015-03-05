@@ -47,7 +47,7 @@ contactMethods:
 
 <div class="col-xs-12 body grid">
   {% for contactMethod in page.contactMethods %}
-    <div class="col-xs-6 col-sm-4 col-md-3 tile">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 tile">
       <a href="{{ contactMethod.href }}" title="{{ contactMethod.title }}" class="tile-content {{ contactMethod.color }}"{% if contactMethod.title == 'Email' %} target="_blank"{% endif %}>
         <div class="valign-wrapper tile-icon">
           <i class="fa fa-{{ contactMethod.icon }} valign"></i>
